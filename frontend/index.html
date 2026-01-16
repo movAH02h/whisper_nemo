@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-
-<html lang="ru">
+<html lang="en">
 <head>
-
-<meta charset="UTF-8">
-
-<title> Пример простой страницы html</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Транскрибация митингов</title>
 </head>
-
 <body>
-
-Я НЕРЕАЛЬНО КРУТ И МОЙ РЕСПЕКТ БЕЗ МЕРЫ :)
+    <div>
+        <h1>Загрузка аудио для транскрибации</h1>
+        <input type="file" id="audioFile">
+        <button onclick=""uploadFile()>Транскрибировать</button>
+        <div id="progress"></div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
